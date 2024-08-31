@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ChooseUsComponent } from './components/choose-us/choose-us.component';
 import { AboutComponent } from './components/about/about.component';
 import { TeamComponent } from './components/team/team.component';
+import { ClientsComponent } from './components/clients/clients.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChooseUsComponent,
     AboutComponent,
-    TeamComponent
+    TeamComponent,
+    ClientsComponent
   ],
   imports: [
     BrowserModule,
